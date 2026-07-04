@@ -1,0 +1,66 @@
+bash --version
+ls
+cd 
+pwd
+echo
+cat
+cp
+mv
+rm
+touch 
+dir
+
+#args for ls
+ls -l  --long list
+ls -a  --shows hidden dir 
+ls -lh
+ls -t
+ls  arg -r
+ls -R  --shows subdirectories recursively
+ls -S
+ls -1  --only yone dir at one line
+ls -d
+ls -F --shows with dirname + '/' at end of dir name
+
+#detailed
+ls -l
+file permission | number of links | owner name | owner group | file size | last modification time in month date time format | file/dir name
+
+ls -a
+hidden files in .file and .folder format
+
+ls -lh
+convert file size in kb mb or gb in file size row rest full format is same as ls -l
+
+ls -t
+sort dir and files by modification time
+
+ls -r 
+reverse the output can be used with other arg
+
+ls -R
+show dir with sub dir recursively
+
+ls -S
+sort by size
+
+ls -1
+one file/dir per line
+
+ls -d */
+only dir with no content
+
+#cd args
+cd .. --go outside current dir
+cd ~  --switch to home dir
+cd -  --switch to previous dir
+cd /  --switch to root dir
+cd dir_namr  --go to that dir
+
+#use && to combine two commands
+cd home && ls
+
+#pwd
+pwd -P  --print physical working dir
+pwd -L
+
