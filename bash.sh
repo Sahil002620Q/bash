@@ -4,3 +4,7 @@ echo  "starting script.."
 #code
 echo "script finished.."
 
+name="sahil"
+echo "hello $name"
+
+
